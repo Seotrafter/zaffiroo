@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Zaffiroo Café – Momentos con sabor en Santiago</title>
+    <meta name="keywords"
+        content="café en Santiago, cafetería acogedora, postres artesanales, café chileno, Zaffiroo Santiago">
+    <meta name="description"
+        content="Zaffiroo es una cafetería en Santiago donde cada taza cuenta una historia. Disfruta café artesanal, postres caseros y un ambiente único.">
+    <link href="img/ico.png" rel="icon">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Oswald:wght@200;300;400&display=swap"
+        rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+
+
+    <div id="cookie-banner" class="cookie-banner">
+        <p>
+            Utilizamos cookies para mejorar tu experiencia. Al continuar, aceptas nuestra
+            <a href="cookie.html">Cookie-Richtlinie</a> y nuestros
+            <a href="terms.html">Términos y Condiciones</a>.
+        </p>
+        <div class="cookie-buttons">
+            <button id="accept-cookies">Aceptar</button>
+            <button id="decline-cookies">Rechazar</button>
+        </div>
+    </div>
+
+    <div class="navbar navbar-expand-lg bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a href="/" class="navbar-brand">Zaffiroo</a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                <div class="navbar-nav ml-auto">
+                    <a href="/" class="nav-item nav-link">Inicio</a>
+                    <a href="about.html" class="nav-item nav-link">Nosotros</a>
+                    <a href="contact.html" class="nav-item nav-link active">Contacto</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="contact" style="padding-top: 100px;">
+        <div class="container">
+            <div class="section-header text-center">
+                <p>Contáctanos</p>
+                <h2>¿Tienes alguna pregunta o sugerencia?</h2>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-7">
+                    <div class="contact-form">
+                        <form name="sentMessage" id="contactForm" action="thankyou.php" method="post">
+                            <div class="control-group mb-3">
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Tu nombre"
+                                    required>
+                            </div>
+                            <div class="control-group mb-3">
+                                <input type="email" class="form-control" id="email" name="email"
+                                    placeholder="Tu correo electrónico" required>
+                            </div>
+                            <div class="control-group mb-3">
+                                <input type="tel" class="form-control" id="phone" name="phone"
+                                    placeholder="Tu número de teléfono" required>
+                            </div>
+                            <div class="control-group mb-3">
+                                <textarea class="form-control" id="message" name="message" rows="5"
+                                    placeholder="Escribe tu mensaje aquí..." required></textarea>
+                            </div>
+                            <div class="text-center">
+                                <button class="btn" type="submit" id="sendMessageButton">Enviar mensaje</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="footer-contact">
+                                <h2>Nuestra dirección</h2>
+                                <p><i class="fa fa-map-marker-alt"></i>Almadén 280, 8150215 Puente Alto, Región
+                                    Metropolitana, Chile</p>
+                                <p><i class="fa fa-phone-alt"></i>+56 9 2715 7391</p>
+                                <p><i class="fa fa-envelope"></i>contacto@zaffiroo.cl</p>
+                            </div>
+
+                        </div>
+                        <div class="col-md-6">
+                            <div class="footer-link">
+                                <h2>Enlaces rápidos</h2>
+                                <a href="/">Inicio</a>
+                                <a href="about.html">Nosotros</a>
+                                <a href="contact.html">Contacto</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="footer-link">
+                        <h2>Información</h2>
+                        <a href="privacy.html">Política de privacidad</a>
+                        <a href="terms.html">Términos y condiciones</a>
+                        <a href="cookie.html">Cookie-Richtlinie</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container copyright">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; <a href="/">Zaffiroo</a>, Todos los derechos reservados.</p>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

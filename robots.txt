@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /about.html
+Sitemap: https://zaffiroo.com/sitemap.xml
